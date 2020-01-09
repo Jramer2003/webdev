@@ -1,0 +1,95 @@
+/* the styles for the elements */
+html { 
+	background-color: #ffffff;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 600px;
+	margin: 0em auto 0em auto;
+	border: 3px solid #931420;
+	background-color: #fffded;
+}
+
+/* the styles for the header */
+header {
+	padding: 1.5em 2em;
+	border-bottom: 3px solid #931420;
+	background-image: -webkit-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, #ffffff 50%, #f6bb73 80%, #f6bb73 100%);
+}
+header img {
+	float: left;
+	padding: 1em;
+}
+header h2{
+	font-size: 170%;
+	color: #800000;
+	padding: 0 30px 0;
+}
+header h3{
+	font-size: 130%;
+	font-style: italic;
+	color: #800000;
+	padding: 0 30px 0;
+/* The individual things, idk this should work */
+}
+p {
+	padding: .5em;
+}
+
+blockquote {
+	padding: 0em 2em 0em;
+	font-style: italic;
+}
+
+span {color: #800000; 
+	text-shadow: -2px -2px 11px;
+}
+
+ul {
+	padding: 0em 0em .25em 1.25em;
+}
+
+li {
+	padding: .35em;
+}
+
+/* the styles for the section */
+main {
+	clear: left;
+	padding: 0 30px 0;
+}
+main h1 { 
+	font-size: 150%; 
+	border: 3px double #931420;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.486);
+	padding: .3em .3em;
+
+}
+main h2 { 
+	font-size: 150%;  
+	color: #800000;
+	padding: .5em .25em;
+}
+main h3 { 
+	font-size: 105%;
+	padding: 0 .25em; 
+}
+main a:link { 
+	font-style: normal; 
+}
+main a:hover, a:focus 
+{ 
+	font-style:italic;
+}
+
+/* the styles for the footer */
+footer p 
+{ 
+	text-align: center;
+	background-color: #931420;
+	color: #ffffff;
+	padding: 1em;
+}
