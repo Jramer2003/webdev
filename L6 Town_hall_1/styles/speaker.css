@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* the styles for the elements */
+html { 
+	background-color: #ffffff;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 800px;
+	margin: 0em auto 0em auto;
+	border: 3px solid #931420;
+	background-color: #fffded;
+}
+/* the styles for the header */
+
+header{
+	padding: 1.5em 0em 2em 0em;
+	border-bottom: 3px solid #931420;
+	background-image: -webkit-linear-gradient(40deg,
+		 #ff8c00 0%,
+		 #ffa83d 30%,
+		 #f6bb73 50%,
+		 #ffdcb1 80%,
+		 #fdfdfd 100%);
+}
+header img {
+	float: left;
+	padding: 0px 30px 0px;
+}
+header h2 {
+	font-size: 170%;
+	color: #800000;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	color: #800000;
+	padding: 0 30px 0;
+}
+/* the styles for the section */
+
+
+section {
+	float: right;
+	width: 525px;
+}
+section h1 {
+	Font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+section h2 { 
+	font-size: 100%;  
+	color: #800000;
+	padding: 0;
+}
+section p {
+	padding-top: .5em;
+	padding-bottom: .5em;	
+}
+section ul {
+	padding: 0em 0em .25em 1.25em;
+}
+section li {
+	padding: 0em 0em .35em 0em;
+}
+
+article {
+	padding-bottom: 1em;
+}
+article img{
+	border: 1px solid #931420;
+	float: right;
+}
+aside{
+	width: 215px;
+	float:left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+aside h2 {
+	color: #800000;
+	padding-bottom: .5em;
+}
+aside h3 { 
+	font-size: 105%;
+	padding-bottom: .25em; 
+}
+aside a:link { 
+	font-style: normal; 
+}
+aside a:hover, a:focus 
+{ 
+	font-style:italic;
+}
+aside img{
+	padding-bottom: 1em;
+}
+
+
+
+/* the styles for the footer */
+footer p 
+{ 
+	clear: both;
+	text-align: center;
+	background-color: #931420;
+	color: #ffffff;
+	padding: .75em;
+}
