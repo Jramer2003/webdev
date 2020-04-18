@@ -1,0 +1,254 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* the styles for the elements */
+html { 
+	background-color: #ffffff;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 98%;
+	max-width: 960px;
+	margin: 0em auto 0em auto;
+	border: 3px solid #931420;
+	background-color: #fffded;
+}
+/* the styles for the header */
+
+header{
+	padding: 1.5em 0em 2em 0em;
+	border-bottom: 3px solid #931420;
+	background-image: -webkit-linear-gradient(40deg,
+		 #ff8c00 0%,
+		 #ffa83d 30%,
+		 #f6bb73 50%,
+		 #ffdcb1 80%,
+		 #fdfdfd 100%);
+}
+header img {
+	float: left;
+	padding: 0px 30px 0px;
+	width: 8.3333%;
+}
+header h2 {
+	font-size: 170%;
+	color: #800000;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	color: #800000;
+	padding: 0 30px 0;
+}
+header span {
+	color: #800000; 
+	text-shadow: -2px -2px 11px;
+}
+/* the styles for the navigation bar*/
+#nav_menu a:link {
+	text-decoration: none;
+}
+#nav_menu ul {
+	list-style-type:none;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+#nav_menu ul li {
+	float: left;
+	width: 20%;
+	display: block;
+	background-color: #800000;
+	text-align: center;
+	padding: 1em 0;
+}
+#nav_menu ul li a {
+	font-weight: bold; 
+	color: rgb(255, 255, 255);
+}
+#nav_menu ul ul {
+	width: 100%;
+	display: none;
+	position: absolute;
+}
+#nav_menu ul ul li{
+	float: none;
+	width: 20%;
+	position: relative;
+}
+#nav_menu ul li:hover > ul  {
+	display: block; 
+} 
+#nav_menu a:hover, a:focus 
+{ 
+	font-style:italic;
+}
+#nav_menu > ul::after {
+	display: block;
+	clear: both;
+}
+
+/* the styles for the section */
+section {
+	float: right;
+	width: 72%;
+	padding-right: 1%
+}
+section h2 { 
+	font-size: 135%;  
+	color: #800000;
+	padding: 0;
+}
+section p {
+	padding-top: .5em;
+	padding-bottom: .5em; 
+}
+section blockquote {
+	font-size: 90%;
+	padding-left: 2.0833%;
+	padding-right: 1.0416667%;
+	font-style: italic;
+}
+section h1 {
+	Font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+section ul {
+	padding: 0em 0em .25em 1.25em;
+}
+section ul.circle {
+	list-style-type: circle;
+}
+section li {
+	padding: 0em 0em .35em 0em;
+}
+
+/* the styles for the article */
+article {
+	border-top: 2px solid #931420;
+	border-bottom: 2px solid #931420;
+	padding-bottom: 2em;
+	padding-top: .5em;
+	margin-right: 8px;
+}
+article img{
+	border: 1px solid #000000;
+	float: right;
+	width: 250px;
+	max-width: 100%;
+	min-width: 150px;
+}
+article h2{
+	padding-top: 0;
+}
+article h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+/* the styles for the  */
+aside{
+	width: 22.39583%;
+	float:left;
+	padding-left: 2.0833%;
+	padding-right: 2.0833%;
+}
+aside h2 {
+	font-size: 135%;  
+	color: #800000;
+	padding: 0;
+}
+aside h3 { 
+	font-size: 105%;
+	padding-bottom: .25em; 
+}
+aside a:link { 
+	font-style: normal; 
+}
+aside a:hover, a:focus 
+{ 
+	font-style:italic;
+}
+aside img{
+	padding-bottom: 1em;
+}
+/* the styles for the footer */
+footer p 
+{ 
+	clear: both;
+	text-align: center;
+	background-color: #931420;
+	color: #ffffff;
+	padding: 1em;
+}
+
+/* Media Queres for tablet*/
+@media only screen and (max-width: 959px or less) 
+{
+	section {
+		float: none;
+		width: 100%;
+		padding-left: .5em;
+	}
+	Section h1 {
+		font-size: 135%;
+	}
+	Section h2 {
+		font-size: 120%;
+	}
+	article {
+		padding-left: 0em;
+		width: 98.5%;
+	}
+	article img {
+	border: 1px solid #000000;
+	float: right;
+	width: 200px;
+	max-width: 40%;
+	min-width: 150px;
+	margin-left: 1em;
+	margin-right: 1em;
+	}
+	aside {
+		float: none;
+		padding-right: 2.0833%;
+		width: 100%;
+	}
+	aside h2 {
+		font-size: 120%;
+	}
+}
+
+/*Tablet portrait*/
+@media only screen and (max-width: 767px or less)
+{	
+	header {
+		float: center;
+	}
+	header img{
+		float: none;
+	}
+	section {
+		width: 98%;
+	}
+	article img {
+		width: 30%;
+	}
+	aside {
+		width: 96%;
+		padding-left: 2.0833%;
+		padding-right: 2.0833%;
+	}
+	aside div {
+		column-count: 2;
+		width: 100%;
+	}
+} 
